@@ -63,6 +63,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: opensans;
+    src: url(../fonts/sans-serif/opensans-regular.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
 
 html {
 
@@ -81,6 +87,7 @@ body {
 
 }
 .slant {
+    font-size:3.5rem;
     margin-top:2.5rem;
     -ms-transform: rotate(-8deg); /* IE 9 */
     -webkit-transform: rotate(-8deg); /* Chrome, Safari, Opera */
@@ -89,22 +96,23 @@ body {
      text-align: center; 
     margin-bottom:5rem;
     
+    
 }
 
 .highlight {
-    font-family: Opensans;
-    src: url(../fonts/sans-serif/opensans-regular.ttf);
     font-weight: normal;
     font-style: normal;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight:bolder;
     color:#EED;
     background-color: maroon ;
   padding: .5rem;
   border: 1px solid maroon ;
-  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
--webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -moz-box-shadow: .5px 1px 2px rgba(0,0,0,.5);
+  -webkit-box-shadow: .5px 1px 2px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  border-top-left-radius:.5rem;
+  border-bottom-right-radius:.5rem;
 }
 
 nav {
